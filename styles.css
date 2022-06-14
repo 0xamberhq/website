@@ -1,0 +1,58 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #333;
+    font-family: 'Helvetica Neue', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 56px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.teaser {
+    background: url("./images/teaser.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100vw;
+    height: calc(min(56.25vw, 60vh));
+}
+
+.teaser h1 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.text-below-teaser {
+    text-align: center;
+}
+
+.icons {
+    font-size: 36px;
+}
+
+.icons > * {
+    margin: 0 4px;
+}
+
+.icons a {
+    color: rgb(252, 114, 55);
+    text-decoration: none;
+    text-shadow: 0 0 0.04em rgb(136, 44, 4);
+}
