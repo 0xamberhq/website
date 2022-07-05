@@ -21,6 +21,17 @@ h2 {
     text-transform: uppercase;
 }
 
+a {
+    color: rgb(252, 114, 55);
+    text-decoration: none;
+    text-shadow: 0 0 0.04em rgb(136, 44, 4);
+}
+
+a:hover {
+    color: rgb(218, 87, 31);
+}
+
+
 .teaser {
     background: url("./images/teaser.png");
     background-position: center;
@@ -39,8 +50,21 @@ h2 {
     text-align: center;
 }
 
-.text-below-teaser {
+.text-center {
     text-align: center;
+}
+
+.whitepaper {
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.whitepaper > i {
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 .icons {
@@ -51,8 +75,6 @@ h2 {
     margin: 0 4px;
 }
 
-.icons a {
-    color: rgb(252, 114, 55);
-    text-decoration: none;
-    text-shadow: 0 0 0.04em rgb(136, 44, 4);
+.mt-xl {
+    margin-top: 96px;
 }
